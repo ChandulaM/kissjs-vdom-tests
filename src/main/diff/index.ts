@@ -13,7 +13,6 @@ function runDiff(oldNode: Html, newNode: Html, patches: Array<Patch>, nodeCache:
         // Assume no changes
         return
     } else {
-        console.log(newNode)
         const domNode: Node = nodeCache.replace(oldNode, newNode);
         if (oldNode.type !== newNode.type) {
             patches.push({

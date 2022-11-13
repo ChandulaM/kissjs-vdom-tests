@@ -1,8 +1,8 @@
 {
-  "name": "kissjs-vdom-tests",
+  "name": "kissjs-vdom",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main/index.js",
   "devDependencies": {
     "@types/chai": "^4.3.3",
     "@types/mocha": "^9.1.1",
@@ -33,7 +33,7 @@
     "url": "git+https://github.com/ChandulaM/kissjs-vdom-tests.git"
   },
   "author": "ChandulaM",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ChandulaM/kissjs-vdom-tests/issues"
   },
